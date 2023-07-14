@@ -40,3 +40,7 @@ body{
 .btn:hover{
     background: linghtgreen;
 }
+
+.usercard{
+    text-align: center;
+}
