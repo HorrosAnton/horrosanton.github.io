@@ -6,7 +6,7 @@ tg.MainButton.text = "Кнопка Cкрытия/Открытия";
 tg.MainButton.setText = "Кнопка поменяла значение Кнопка Cкрытия/Открытия";
 tg.MainButton.textColor ="#F55353";
 tg.MainButton.color = "#143F6B";
-tg.MainButton.setParams({"color": "143F6B"})
+tg.MainButton.setParams({"color": "143F6B"});
 
 btn.addEventListener('click', function(){
 	if (tg.MainButton.isVisible){
@@ -30,5 +30,5 @@ btnED.addEventListener('click', function(){
 });
 
 Telegram.WebApp.onEvent('mainButtonClicked', function(){
-	tg.sendData("some string")
+	tg.sendData("some string");
 });
