@@ -38,7 +38,7 @@ Telegram.WebApp.onEvent('mainButtonClicked', function(){
 let usercard = document.getElementById("usercard"); //получаем блок usercard 
 
 let profName = document.createElement('p'); //создаем параграф
-profName.innerText = `${tg.initDataUnsafe.user.first_name}
+profName.innerText = `${tg.initDataUnsafe.user.text("Поивет")}
 ${tg.initDataUnsafe.user.last_name}
 ${tg.initDataUnsafe.user.username} (${tg.initDataUnsafe.user.language_code})`;
 //выдем имя, "фамилию", через тире username и код языка
