@@ -1,44 +1,26 @@
-body{
-    background-color: #69695d;
-}
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <title>WebApp</title>
 
-#wrapper{
-    background-color: #fff;
-    margin: auto 100px;
-}
-
-.top_header{
-    height: auto;
-}
-
-
-.circle-image{
-    margin: 15px;
-    display: inline-block;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 150px;
-    height: 150px;
-
-}
-.circle-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    float: left;
-}
-
-.name{
-    float: right;
-    margin-right: 100px;
-}
-
-.full_name{
-    font-size: 38px;
-    margin: 15px 0px 10px 0px;
-}
-
-p{
-    font-size: 18px;
-
-}
+</head>
+<body>
+    <div id="wrapper">
+        <div class="top_header">
+            <span class="circle-image">
+	            <img src="pers.jpg"/>
+	        </span>
+            <span class="name">
+                <p class="full_name">Хорошев Антон</p>
+                <p class="class">Класс: Кузнец</p>
+                <p class="guild">Гильдия: Админская</p>
+                <p class="companion">Компаньен: Падший воин</p>
+            </span>
+        </div>
+        <div class="header"></div>
+        <div class="bottom_header"></div>
+    </div>
+</body>
+</html>
