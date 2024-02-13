@@ -1,28 +1,26 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ru">
 <head>
-    <title>Chat Bot</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <title>WebApp</title>
+
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>Column 1</th>
-                <th>Column 2</th>
-		<th>Column 3</th>
-                <!-- ... -->
-            </tr>
-        </thead>
-        <tbody>
-            {% for row in data %}
-                <tr>
-                    <td>{{ row[0] }}</td>
-                    <td>{{ row[1] }}</td>
-                    <td>{{ row[2] }}</td>
-                    <!-- ... -->
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <div id="wrapper">
+        <div class="top_header">
+            <span class="circle-image">
+	            <img src="pers.jpg"/>
+	        </span>
+            <span class="name">
+                <p class="full_name">Хорошев Антон</p>
+                <p class="class">Класс: Кузнец</p>
+                <p class="guild">Гильдия: Админская гильдия</p>
+                <p class="companion">Компаньен: Падший воин</p>
+            </span>
+        </div>
+        <div class="header"></div>
+        <div class="bottom_header"></div>
+    </div>
 </body>
 </html>
